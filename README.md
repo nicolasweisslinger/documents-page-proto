@@ -8,7 +8,7 @@
 
 ## The important parts  are :
 
-• The blinkID folder, shows you right away how to configure and instanciate the microblink scanner. I really wouldn't recommend spending time on their shitty documentation.
+• The blinkID folder, shows you right away how to configure and instanciate the microblink scanner. I really wouldn't recommend spending time on their shitty documentation. The license used in the repo replicates what we will have later, and works for 3 months.
 
 • `UploadScreen.tsx` : shows you how to use the scanner
 
