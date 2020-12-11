@@ -1,0 +1,24 @@
+query brigader($id: UUID!) {
+  Brigader(id: $id) {
+    id
+    ... on CompletedBrigader {
+      documents_needed {
+        category
+        types
+      }
+      document_errors {
+        category
+        errors
+      }
+      seller_document_errors {
+        category
+        errors
+      }
+      provider_document_errors {
+        category
+        errors
+      }
+      last_documents_pending
+    }
+  }
+}

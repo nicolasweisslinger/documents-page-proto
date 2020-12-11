@@ -1,0 +1,5 @@
+mutation createDocumentsFromMicroblinkResult($mbResult: JSON!) {
+  createDocumentsFromMicroblinkResult(mbResult: $mbResult) {
+    id
+  }
+}

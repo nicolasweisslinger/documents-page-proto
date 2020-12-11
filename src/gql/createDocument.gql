@@ -1,0 +1,17 @@
+mutation createDocument(
+  $front_file: Upload!
+  $back_file: Upload
+  $type: DocumentType!
+  $data: JSON
+  $expiresAt: DateTime
+) {
+  createDocument(
+    front_file: $front_file
+    back_file: $back_file
+    type: $type
+    data: $data
+    expiresAt: $expiresAt
+  ) {
+    id
+  }
+}
